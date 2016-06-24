@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="velcom_logo_bottom_margin">25dp</dimen>
+    <dimen name="home_bottom_tab_marginTop">60dp</dimen>
+
+    <dimen name="equity_item_logo">30dp</dimen>
+    <dimen name="equity_item_maxwidth">200dp</dimen>
+
+    <dimen name="layout_margin_size_5">5dp</dimen>
+    <dimen name="layout_margin_size_8">8dp</dimen>
+    <dimen name="home_category_back">15dp</dimen>
+    <dimen name="home_fragment_margin">20dp</dimen>
+    <dimen name="news_item_height">120dp</dimen>
+    <dimen name="news_item_image_width">100dp</dimen>
+    <dimen name="news_item_image_height">90dp</dimen>
+    <dimen name="news_item_text_height">80dp</dimen>
+
+    <dimen name="fragment_me_top_margin">40dp</dimen>
+    <dimen name="fragment_me_top_height">160dp</dimen>
+
+    <dimen name="category_item_text_size">17sp</dimen>
+    <dimen name="news_item_title_text_size">20sp</dimen>
+    <dimen name="fragment_me_top_text_size">23sp</dimen>
+
+</resources>
