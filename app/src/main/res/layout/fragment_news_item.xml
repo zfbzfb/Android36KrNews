@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/news_item_image"
+        android:layout_width="@dimen/news_item_image_width"
+        android:layout_height="@dimen/news_item_image_height"
+        android:padding="5dp"
+        android:layout_margin="@dimen/layout_margin_size_8"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/news_item_text_height"
+        android:layout_marginBottom="@dimen/layout_margin_size_8"
+        android:layout_marginRight="@dimen/layout_margin_size_8"
+        android:layout_marginTop="@dimen/layout_margin_size_8">
+
+        <TextView
+            android:id="@+id/news_item_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="为什么苹果迟迟没有谈到VR和AR"
+            android:textColor="@color/black"
+            android:textSize="@dimen/category_item_text_size" />
+
+        <TextView
+            android:id="@+id/news_item_author_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_alignParentBottom="true"
+            android:text="宇多田" />
+        <TextView
+            android:id="@+id/news_item_time_txt"
+            android:layout_width="@dimen/news_item_height"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_toRightOf="@id/news_item_author_txt"
+            android:layout_alignParentBottom="true"
+            android:text="6小时前" />
+        <TextView
+            android:id="@+id/news_item_type_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:textColor="@color/red"
+            android:background="@drawable/share"
+            android:padding="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="深度" />
+    </RelativeLayout>
+</LinearLayout>
